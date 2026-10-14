@@ -1,0 +1,10 @@
+weather_1 = float(input("Какая погода в Ош"))
+weather_2 = float(input("Какая погода в Баткен"))
+weather_3 = float(input("Какая погода в Ыссык-Куль"))
+weather_4 = float(input("Какая погода в Манас"))
+weather_5 = float(input("Какая погода в Талас"))
+weather_6 = float(input("Какая погода в Нарын"))
+weather_7 = float(input("Какая погода в Бишкеке"))
+res = weather_1+weather_2+weather_3+weather_4+weather_5+weather_6+weather_7/7 
+res_float = round(res,2)
+print(f"Средняя погода в КР {weather_1}+{weather_2}+{weather_3}+{weather_4}+{weather_5}+{weather_6}+{weather_7}={res_float}")
